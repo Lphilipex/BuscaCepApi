@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div class="conteiner-geral">
+            <div class="lado-esquerdo">
+
+
+                <div class="box-large">
+                    <h1>Previsão do tempo</h1>
+                    <h2 id="cidade-i">cidade</h2>
+                    <h2 id="temp">temperatura</h2>
+                    <h2 id="umi">umidade</h2>
+                    <h2 id="Previsao">Previsão</h2>
+                    <img src="https://openweathermap.org/img/wn/10n@2x.png" alt="img-icon" id="img-icon">
+                </div>
+
+
+
+
+
+
+            </div>
+            <div class="lado-direito">
+                <div class="cep">
+                    <Input type="text" name="cep" id="cep" placeholder="Digite o cep"></Input>
+                    <Input type="text" name="estado" id="estado" disabled></Input>
+                    <Input type="text" name="cidade" id="cidade" disabled></Input>
+                    <Input type="text" name="bairro" id="bairro" disabled></Input>
+                    <Input type="text" name="endereco" id="endereco" disabled></Input>
+                    <button type="submit" id="btn" onclick="capturarDado() ">Pesquisar</button>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+</body>
+<script src="app.js"></script>
+
+</html>
